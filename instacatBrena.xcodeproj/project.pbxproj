@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		46FFA4572385918700D2D945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46FFA4562385918700D2D945 /* Assets.xcassets */; };
 		46FFA45A2385918700D2D945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FFA4582385918700D2D945 /* LaunchScreen.storyboard */; };
 		46FFA4622385940400D2D945 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46FFA4612385940400D2D945 /* GoogleService-Info.plist */; };
+		7DCB719B238701DB00C1345F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCB719A238701DB00C1345F /* LoginViewController.swift */; };
 		DEE3CB69EADADC3248332AFD /* Pods_instacatBrena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA89589F3809E7A0A10DF1A /* Pods_instacatBrena.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		46FFA4592385918700D2D945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46FFA45B2385918700D2D945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46FFA4612385940400D2D945 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7DCB719A238701DB00C1345F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8FA89589F3809E7A0A10DF1A /* Pods_instacatBrena.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instacatBrena.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE464F491843CAB5010D5DBB /* Pods-instacatBrena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instacatBrena.debug.xcconfig"; path = "Target Support Files/Pods-instacatBrena/Pods-instacatBrena.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,7 +52,6 @@
 				AE464F491843CAB5010D5DBB /* Pods-instacatBrena.debug.xcconfig */,
 				28C7E167C5D24DF9D19D8D8A /* Pods-instacatBrena.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,6 +84,7 @@
 				46FFA4582385918700D2D945 /* LaunchScreen.storyboard */,
 				46FFA45B2385918700D2D945 /* Info.plist */,
 				46FFA4532385918400D2D945 /* instacatBrena.xcdatamodeld */,
+				7DCB719A238701DB00C1345F /* LoginViewController.swift */,
 			);
 			path = instacatBrena;
 			sourceTree = "<group>";
@@ -211,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DCB719B238701DB00C1345F /* LoginViewController.swift in Sources */,
 				46FFA44F2385918400D2D945 /* ViewController.swift in Sources */,
 				46FFA44D2385918400D2D945 /* AppDelegate.swift in Sources */,
 				46FFA4552385918400D2D945 /* instacatBrena.xcdatamodeld in Sources */,
